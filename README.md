@@ -2,6 +2,8 @@
 
 - Create React App
 - Tailwind CSS
+- Header
+- Login Form
 
 ## Features
 
