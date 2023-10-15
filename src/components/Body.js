@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react'
 import Login from './Login'
 import Browse from './Browse'
@@ -28,9 +29,8 @@ const Body = () => {
       if (user) {
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/auth.user
-        const {uid,displayName,email,providerId} = user
-        dispatch(addUser({uid,displayName,email,providerId}));
-        console.warn('user is ',user)
+        dispatch(addUser(JSON.parse(JSON.stringify(user))));
+        console.warn('state changed and user is ',user)
         // ...
       } else {
         // User is signed out
