@@ -10,7 +10,7 @@ const Login = () => {
   return (
     <div className='login-page'>
       <Header></Header>
-      <div className='absolute bg-black my-24 ml-[30%] text-white p-6 rounded-lg w-3/12 bg-opacity-80'>
+      <div className='absolute bg-black my-24 ml-[35%] text-white p-6 rounded-lg w-3/12 bg-opacity-80 max-md:w-1/2 max-md:ml-[24%]'>
         <h1 className='font-bold my-2 text-3xl w-full'>{isSingInFrom ? 'Sign in' : 'Sign up'}</h1>
         <form className='w-full'>
           {
