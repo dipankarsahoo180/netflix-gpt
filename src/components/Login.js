@@ -3,13 +3,14 @@ import Header from './Header'
 import checkValidData from '../utils/validate';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../utils/firebase';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [isSingInFrom, setIsSignInFrom] = useState(true);
   const [errorMessage, setErrorMessage] = useState('Authentication Required');
   const email = useRef(null);
   const password = useRef(null);
-
+  const navigate = useNavigate();
   const handleButtonClick = (evt) => {
     console.log(email, password);
     const message = checkValidData(email.current.value, password.current.value)
@@ -52,9 +53,11 @@ const Login = () => {
   const signInSignUpUser = (email, password) => {
     if (isSingInFrom) {
       signInUser(email, password);
+      navigate('/browse')
     }
     else {
       signUpUser(email, password)
+      navigate('/browse')
     }
   }
 

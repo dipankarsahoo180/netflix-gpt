@@ -9,7 +9,8 @@
 - useref hook
 - Firebase setup
 - Deploy app to production
-- Create user via signup in firebase
+- Create user via signup in firebase using firebase API
+- Created redux store with user slice
 
 ## Features
 
