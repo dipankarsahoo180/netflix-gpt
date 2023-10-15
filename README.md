@@ -4,6 +4,12 @@
 - Tailwind CSS
 - Header
 - Login Form
+- Sign up form
+- Form validation
+- useref hook
+- Firebase setup
+- Deploy app to production
+- Create user via signup in firebase
 
 ## Features
 
