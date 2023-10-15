@@ -4,7 +4,7 @@ import checkValidData from '../utils/validate';
 
 const Login = () => {
   const [isSingInFrom, setIsSignInFrom] = useState(true);
-  const [errorMessage, setErrorMessage] = useState('Authentication Required');
+  const [errorMessage, setErrorMessage] = useState(null);
   const email = useRef(null);
   const password = useRef(null);
 
