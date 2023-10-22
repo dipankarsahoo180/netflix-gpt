@@ -1,4 +1,4 @@
-# NETFLIX-GPT
+#[NETFLIX-GPT](https://netflixgpt-78ee3.web.app/browse)
 
 -  Create React App
 -  Tailwind CSS
@@ -17,6 +17,7 @@
 -  Custom Hook for Now playing and trailer
 -  Updated movies data into store (Create Movie Slice)
 -  Emebed trailer video in browse page
+-  Show Movie lists with posters
 
 ## Features
 
