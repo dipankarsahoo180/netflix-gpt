@@ -1,4 +1,4 @@
-#[NETFLIX-GPT](https://netflixgpt-78ee3.web.app/browse)
+# [NETFLIX-GPT](https://netflixgpt-78ee3.web.app/)
 
 -  Create React App
 -  Tailwind CSS
