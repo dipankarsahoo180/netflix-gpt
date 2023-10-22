@@ -11,7 +11,11 @@ const MainContainer = () => {
       <div>
          <VideoTitle
             title={mainMovie.original_title}
-            overview={mainMovie.overview}
+            overview={
+               mainMovie.overview?.length < 100
+                  ? mainMovie.overview
+                  : mainMovie.overview?.slice(0, 100)
+            }
          ></VideoTitle>
          <VideoBackground movieId={mainMovie?.id}></VideoBackground>
       </div>
