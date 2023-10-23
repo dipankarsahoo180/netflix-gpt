@@ -13,7 +13,7 @@ const Browse = () => {
    useNowPopoularMovies();
 
    return (
-      <div>
+      <div className="max-sm:bg-black max-md:bg-black">
          <Header></Header>
          {gptToggle ? (
             <GptSearch></GptSearch>

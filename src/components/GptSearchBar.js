@@ -19,9 +19,9 @@ const GptSearchBar = () => {
    };
    const searchText = useRef();
    return (
-      <div className="pt-24 flex justify-center">
+      <div className="pt-24 flex justify-center  max-sm:pt-36">
          <form
-            className="p-2 bg-black rounded-md w-1/2 flex justify-between"
+            className="p-2 bg-black rounded-md w-1/2 flex justify-between max-sm:flex-col max-sm:items-center max-sm:w-full"
             onSubmit={(e) => e.preventDefault()}
          >
             <input
@@ -31,7 +31,7 @@ const GptSearchBar = () => {
                ref={searchText}
             ></input>
             <button
-               className="bg-red-600 font-bold text-white rounded-lg p-2 my-4 w-3/12"
+               className="bg-red-600 font-bold text-white rounded-lg p-2 my-4 w-3/12 max-sm:w-1/2"
                //    onClick={handleGptSearchClick}
             >
                Search

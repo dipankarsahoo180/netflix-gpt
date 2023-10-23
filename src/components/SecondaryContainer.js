@@ -11,7 +11,7 @@ const SecondaryContainer = () => {
    const popular_movies = popularMovies?.results;
    return (
       <div className="bg-black">
-         <div className="-mt-56">
+         <div className="-mt-56 max-sm:-mt-16 max-lg:-mt-16">
             <MovieList
                title="Now Playing"
                movies={now_playing_movies}

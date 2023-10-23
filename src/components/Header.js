@@ -50,10 +50,10 @@ const Header = () => {
    };
 
    return (
-      <div className="absolute py-2 bg-gradient-to-b from-black z-10 w-screen flex justify-between">
+      <div className="absolute py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between max-sm:flex-col max-sm:items-center max-sm:bg-black">
          <img className="w-44" src={logo} alt="Logo" />
          {user ? (
-            <div className="flex">
+            <div className="flex max-sm:justify-center">
                <button
                   className="mx-4 mr-8 text-white font-bold"
                   onClick={handleGptSearchClick}

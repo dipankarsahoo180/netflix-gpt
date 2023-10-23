@@ -8,7 +8,7 @@ const MainContainer = () => {
    if (!movies) return;
    const mainMovie = movies?.results[0];
    return (
-      <div>
+      <div className="max-sm:pt-36">
          <VideoTitle
             title={mainMovie.original_title}
             overview={
