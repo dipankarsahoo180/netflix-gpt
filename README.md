@@ -18,6 +18,7 @@
 -  Updated movies data into store (Create Movie Slice)
 -  Emebed trailer video in browse page
 -  Show Movie lists with posters
+-  GPT Search feature
 
 ## Features
 
