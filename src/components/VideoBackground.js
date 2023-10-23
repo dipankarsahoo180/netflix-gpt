@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
-import useMovieTrailer from "./useMovieTrailer";
+import useMovieTrailer from "../hooks/useMovieTrailer";
 import { useSelector } from "react-redux";
 
 const VideoBackground = ({ movieId }) => {
