@@ -3,7 +3,7 @@ import React from "react";
 const VideoTitle = ({ title, overview }) => {
    return (
       <div
-         className="w-1/3 pt-[18%] px-24 absolute text-white from-black aspect-video max-sm:w-full max-sm:px-2 max-sm:mt-36 max-sm:bg-black  
+         className="w-1/3 pt-[18%] px-24 absolute text-white from-black aspect-video max-sm:w-full max-sm:px-2 max-sm:mt-36 
       max-lg:w-full max-lg:pt-[15%] custom-responsive-design"
       >
          <div className="text-6xl font-bold max-md:w-screen max-lg:px-2">
